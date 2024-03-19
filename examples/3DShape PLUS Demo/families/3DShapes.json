@@ -1,0 +1,17 @@
+{
+	"name": "3DShapes",
+	"plugin-id": "Shape3D",
+	"sid": 260092286440594,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "overboy_3d_shape_plus",
+			"name": "3DShapePlus",
+			"sid": 846930386360247
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"3DShape"
+	]
+}

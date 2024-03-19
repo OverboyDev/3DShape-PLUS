@@ -1,0 +1,29 @@
+{
+	"name": "TiledBackground",
+	"plugin-id": "TiledBg",
+	"sid": 444918120408924,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "test",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 264501089605821
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 20,
+		"height": 20,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 6458647,
+		"useCollisionPoly": true,
+		"tag": ""
+	}
+}

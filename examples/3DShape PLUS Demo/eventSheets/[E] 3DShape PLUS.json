@@ -1,0 +1,465 @@
+{
+	"name": "[E] 3DShape PLUS",
+	"events": [
+		{
+			"eventType": "comment",
+			"text": "[b]3D SHAPE PLUS[/b] Behavior, \nMade by Overboy \n\n[b]Find all my C3 Tools here[/b] : https://overboy.itch.io/"
+		},
+		{
+			"eventType": "variable",
+			"name": "string",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 728190247497564
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 477345853494494
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Text_ActionDescription",
+					"sid": 745961331104910,
+					"parameters": {
+						"text": "\"\""
+					}
+				}
+			],
+			"sid": 629232420841916
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 532269941375785,
+					"parameters": {
+						"key": 49
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "SetAllFacesToFace",
+					"objectClass": "3DShape",
+					"sid": 989000804844960,
+					"behaviorType": "3DShapePlus",
+					"parameters": {
+						"image": "back"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 507846862872517,
+					"parameters": {
+						"variable": "string",
+						"value": "\"Set all faces to use image of BACK face\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text_ActionDescription",
+					"sid": 995588693160409,
+					"parameters": {
+						"text": "\"[background=#000000]\"&\nstring\r\n&\"[/background]\""
+					}
+				}
+			],
+			"sid": 302479586490005
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 891664597461401,
+					"parameters": {
+						"key": 50
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "SetAllFacesToFace",
+					"objectClass": "3DShape",
+					"sid": 719840865390989,
+					"behaviorType": "3DShapePlus",
+					"parameters": {
+						"image": "front"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 279588566740229,
+					"parameters": {
+						"variable": "string",
+						"value": "\"Set all faces to use image of FRONT face\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text_ActionDescription",
+					"sid": 296837151529159,
+					"parameters": {
+						"text": "\"[background=#000000]\"&\nstring\r\n&\"[/background]\""
+					}
+				}
+			],
+			"sid": 841111131636879
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 270947620451965,
+					"parameters": {
+						"key": 51
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "SetSkin",
+					"objectClass": "3DShape",
+					"sid": 871245576712213,
+					"behaviorType": "3DShapePlus",
+					"parameters": {
+						"object": "SkinBank",
+						"animation": "\"grass\""
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 566422579429948,
+					"parameters": {
+						"variable": "string",
+						"value": "\" Set skin to 'Grass' Animation of Sprite SkinBank\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text_ActionDescription",
+					"sid": 915438192571337,
+					"parameters": {
+						"text": "\"[background=#000000]\"&\nstring\r\n&\"[/background]\""
+					}
+				}
+			],
+			"sid": 865338114123834
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 994244208554094,
+					"parameters": {
+						"key": 52
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "ResetAllFacesToOriginalFace",
+					"objectClass": "3DShape",
+					"sid": 208010108941683,
+					"behaviorType": "3DShapePlus"
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 733436591164066,
+					"parameters": {
+						"variable": "string",
+						"value": "\"Reset all faces to their original face image\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text_ActionDescription",
+					"sid": 682945818570189,
+					"parameters": {
+						"text": "\"[background=#000000]\"&\nstring\r\n&\"[/background]\""
+					}
+				}
+			],
+			"sid": 980107615908903
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 100606709728446,
+					"parameters": {
+						"key": 53
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "SetSkin",
+					"objectClass": "3DShape",
+					"sid": 843843196778172,
+					"behaviorType": "3DShapePlus",
+					"parameters": {
+						"object": "SkinBank",
+						"animation": "\"Snow\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text_ActionDescription",
+					"sid": 503415692551273,
+					"parameters": {
+						"text": "\" Set skin to 'Snow' Animation of Sprite SkinBank\""
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 828827490048300,
+					"parameters": {
+						"variable": "string",
+						"value": "\"Set skin to 'Skin2' Animation of Sprite SkinBank\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text_ActionDescription",
+					"sid": 860184719967279,
+					"parameters": {
+						"text": "\"[background=#000000]\"&\nstring\r\n&\"[/background]\""
+					}
+				}
+			],
+			"sid": 716494154185336
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 673870177738946,
+					"parameters": {
+						"key": 54
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "SetAllFacesToObjectClass",
+					"objectClass": "3DShape",
+					"sid": 285262906218013,
+					"behaviorType": "3DShapePlus",
+					"parameters": {
+						"object": "TiledBackground"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 448455004950583,
+					"parameters": {
+						"variable": "string",
+						"value": "\"Set all faces to use image of TiledBackground\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text_ActionDescription",
+					"sid": 760543410128214,
+					"parameters": {
+						"text": "\"[background=#000000]\"&\nstring\r\n&\"[/background]\""
+					}
+				}
+			],
+			"sid": 830815288584711
+		},
+		{
+			"eventType": "comment",
+			"text": "Other ACES"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 439667997239583,
+					"parameters": {
+						"mouse-button": "middle",
+						"click-type": "clicked",
+						"object-clicked": "3DShapes"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "log",
+					"objectClass": "Browser",
+					"sid": 699731903158504,
+					"parameters": {
+						"type": "log",
+						"message": "\"Middle Clicked \"& 3DShapes.UID  &\":\""
+					}
+				}
+			],
+			"sid": 373084605308385,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "pick-all",
+							"objectClass": "System",
+							"sid": 226018746928220,
+							"parameters": {
+								"object": "3DShapes"
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "comment",
+							"text": "reset default color to all 3DShapes"
+						},
+						{
+							"id": "set-default-color",
+							"objectClass": "3DShapes",
+							"sid": 390752016259311,
+							"parameters": {
+								"color": "rgbEx(100, 100, 100)"
+							}
+						}
+					],
+					"sid": 199286418685527
+				},
+				{
+					"eventType": "comment",
+					"text": "check if Skin is Object = \"SpriteBank\" and Animation = \"Snow\""
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "Is_Skin",
+							"objectClass": "3DShapes",
+							"sid": 607084769362825,
+							"behaviorType": "3DShapePlus",
+							"parameters": {
+								"object": "SkinBank",
+								"animation": "\"snow\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "comment",
+							"text": "(if true, set color to blue)"
+						},
+						{
+							"id": "set-default-color",
+							"objectClass": "3DShapes",
+							"sid": 532579775549060,
+							"parameters": {
+								"color": "rgbEx(0, 100, 100)"
+							}
+						}
+					],
+					"sid": 546091006734382
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 180078520107639
+						}
+					],
+					"actions": [
+						{
+							"type": "comment",
+							"text": "(if true, set color to red)"
+						},
+						{
+							"id": "set-default-color",
+							"objectClass": "3DShapes",
+							"sid": 850033495744486,
+							"parameters": {
+								"color": "rgbEx(100, 0, 0)"
+							}
+						}
+					],
+					"sid": 788214617607671
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 609929818501907,
+					"parameters": {
+						"mouse-button": "right",
+						"click-type": "clicked",
+						"object-clicked": "3DShapes"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "log",
+					"objectClass": "Browser",
+					"sid": 645642961173798,
+					"parameters": {
+						"type": "log",
+						"message": "\"3DShape PLUS with UID \"& 3DShapes.UID  &\":\""
+					}
+				},
+				{
+					"id": "log",
+					"objectClass": "Browser",
+					"sid": 587730283100689,
+					"parameters": {
+						"type": "log",
+						"message": "\"Skin_SpriteName: \"& 3DShapes.3DShapePlus.Skin_SpriteName"
+					}
+				},
+				{
+					"id": "log",
+					"objectClass": "Browser",
+					"sid": 363974554380979,
+					"parameters": {
+						"type": "log",
+						"message": "\"Skin_AnimName: \"& 3DShapes.3DShapePlus.Skin_AnimName"
+					}
+				}
+			],
+			"sid": 686610685124205
+		}
+	],
+	"sid": 785005103805735
+}

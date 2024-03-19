@@ -1,0 +1,10 @@
+{
+	"name": "Some notes",
+	"events": [
+		{
+			"eventType": "comment",
+			"text": "[b]Notes[/b]\n\n• You need at least one instance of the Sprite Object you use as Skin in your current Layout\n• A cool trick is to use a single Sprite ObjectType as a \"SskinBank\", containing multiple animations used as Skin\n• Having a SkinBank Sprite ObjectType + a Template Bank Layout as this example does it great\n\n✅ Everything else is explained/showcased in the \"Level Design\" and \"Template Bank\" Layouts \n(which both use the [E] 3DShape PLUS eventsheet)\n\n[b]Enjoy ❤[/b]"
+		}
+	],
+	"sid": 910095297309191
+}
